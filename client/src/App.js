@@ -8,11 +8,13 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">"Never underestimate the Underdog"</h1>
+          <h1 className="App-title">"TINDAWG"</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          Never underestimate the greed of the other dog owner.
         </p>
+        <button onClick="myFunction()">Like</button>
+        <button onClick="myFunction()">Dislike</button>
       </div>
     );
   }
